@@ -44,6 +44,7 @@
             this.btnPreguntas.TabIndex = 0;
             this.btnPreguntas.Text = "Añadir Preguntas y respuestas";
             this.btnPreguntas.UseVisualStyleBackColor = true;
+            this.btnPreguntas.Click += new System.EventHandler(this.btnPreguntas_Click);
             // 
             // btnJugar
             // 

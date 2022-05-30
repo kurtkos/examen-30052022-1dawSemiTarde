@@ -12,7 +12,9 @@ namespace JoseSanchezTomas24
 {
     public partial class Form1 : Form
     {
-        bool preguntas = false;
+        list<QuestionModel> questions;
+
+        
         public Form1()
         {
             InitializeComponent();
@@ -20,14 +22,12 @@ namespace JoseSanchezTomas24
 
         private void btnJugar_Click(object sender, EventArgs e)
         {
-            if(preguntas == true)
-            {
+           
+        }
 
-            }
-            else
-            {
+        private void btnPreguntas_Click(object sender, EventArgs e)
+        {
 
-            }
         }
     }
 }
