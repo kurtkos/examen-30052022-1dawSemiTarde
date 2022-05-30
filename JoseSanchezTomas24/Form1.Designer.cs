@@ -30,6 +30,9 @@
         {
             this.btnPreguntas = new System.Windows.Forms.Button();
             this.btnJugar = new System.Windows.Forms.Button();
+            this.lblJugador = new System.Windows.Forms.Label();
+            this.lblPuntuación = new System.Windows.Forms.Label();
+            this.lblPuntos = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnPreguntas
@@ -50,16 +53,48 @@
             this.btnJugar.Text = "Jugar";
             this.btnJugar.UseVisualStyleBackColor = true;
             // 
+            // lblJugador
+            // 
+            this.lblJugador.AutoSize = true;
+            this.lblJugador.Location = new System.Drawing.Point(441, 81);
+            this.lblJugador.Name = "lblJugador";
+            this.lblJugador.Size = new System.Drawing.Size(57, 16);
+            this.lblJugador.TabIndex = 2;
+            this.lblJugador.Text = "Jugador";
+            // 
+            // lblPuntuación
+            // 
+            this.lblPuntuación.AutoSize = true;
+            this.lblPuntuación.Location = new System.Drawing.Point(441, 140);
+            this.lblPuntuación.Name = "lblPuntuación";
+            this.lblPuntuación.Size = new System.Drawing.Size(73, 16);
+            this.lblPuntuación.TabIndex = 3;
+            this.lblPuntuación.Text = "Puntuación";
+            // 
+            // lblPuntos
+            // 
+            this.lblPuntos.AutoSize = true;
+            this.lblPuntos.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPuntos.Location = new System.Drawing.Point(610, 127);
+            this.lblPuntos.Name = "lblPuntos";
+            this.lblPuntos.Size = new System.Drawing.Size(27, 29);
+            this.lblPuntos.TabIndex = 4;
+            this.lblPuntos.Text = "0";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblPuntos);
+            this.Controls.Add(this.lblPuntuación);
+            this.Controls.Add(this.lblJugador);
             this.Controls.Add(this.btnJugar);
             this.Controls.Add(this.btnPreguntas);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -67,6 +102,9 @@
 
         private System.Windows.Forms.Button btnPreguntas;
         private System.Windows.Forms.Button btnJugar;
+        private System.Windows.Forms.Label lblJugador;
+        private System.Windows.Forms.Label lblPuntuación;
+        private System.Windows.Forms.Label lblPuntos;
     }
 }
 
