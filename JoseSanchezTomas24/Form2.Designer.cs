@@ -30,6 +30,7 @@
         {
             this.lblSeleccionPregunta = new System.Windows.Forms.Label();
             this.lblPregunta = new System.Windows.Forms.Label();
+            this.comboBoxPreguntas = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // lblSeleccionPregunta
@@ -51,11 +52,20 @@
             this.lblPregunta.TabIndex = 1;
             this.lblPregunta.Text = "Pregunta";
             // 
+            // comboBoxPreguntas
+            // 
+            this.comboBoxPreguntas.FormattingEnabled = true;
+            this.comboBoxPreguntas.Location = new System.Drawing.Point(148, 194);
+            this.comboBoxPreguntas.Name = "comboBoxPreguntas";
+            this.comboBoxPreguntas.Size = new System.Drawing.Size(228, 24);
+            this.comboBoxPreguntas.TabIndex = 2;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.comboBoxPreguntas);
             this.Controls.Add(this.lblPregunta);
             this.Controls.Add(this.lblSeleccionPregunta);
             this.Name = "Form2";
@@ -69,5 +79,6 @@
 
         private System.Windows.Forms.Label lblSeleccionPregunta;
         private System.Windows.Forms.Label lblPregunta;
+        private System.Windows.Forms.ComboBox comboBoxPreguntas;
     }
 }
