@@ -33,6 +33,7 @@
             this.lblJugador = new System.Windows.Forms.Label();
             this.lblPuntuación = new System.Windows.Forms.Label();
             this.lblPuntos = new System.Windows.Forms.Label();
+            this.txtBoxNombreJug = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnPreguntas
@@ -75,17 +76,25 @@
             // 
             this.lblPuntos.AutoSize = true;
             this.lblPuntos.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPuntos.Location = new System.Drawing.Point(610, 127);
+            this.lblPuntos.Location = new System.Drawing.Point(641, 127);
             this.lblPuntos.Name = "lblPuntos";
             this.lblPuntos.Size = new System.Drawing.Size(27, 29);
             this.lblPuntos.TabIndex = 4;
             this.lblPuntos.Text = "0";
+            // 
+            // txtBoxNombreJug
+            // 
+            this.txtBoxNombreJug.Location = new System.Drawing.Point(556, 79);
+            this.txtBoxNombreJug.Name = "txtBoxNombreJug";
+            this.txtBoxNombreJug.Size = new System.Drawing.Size(208, 22);
+            this.txtBoxNombreJug.TabIndex = 5;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtBoxNombreJug);
             this.Controls.Add(this.lblPuntos);
             this.Controls.Add(this.lblPuntuación);
             this.Controls.Add(this.lblJugador);
@@ -105,6 +114,7 @@
         private System.Windows.Forms.Label lblJugador;
         private System.Windows.Forms.Label lblPuntuación;
         private System.Windows.Forms.Label lblPuntos;
+        private System.Windows.Forms.TextBox txtBoxNombreJug;
     }
 }
 
