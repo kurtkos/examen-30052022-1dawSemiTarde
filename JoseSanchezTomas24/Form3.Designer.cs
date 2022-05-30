@@ -40,6 +40,8 @@
             this.txtBoxRespB = new System.Windows.Forms.TextBox();
             this.txtBoxRespC = new System.Windows.Forms.TextBox();
             this.txtBoxValor = new System.Windows.Forms.TextBox();
+            this.btnCancelar = new System.Windows.Forms.Button();
+            this.btnGuardar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblTitulo
@@ -143,11 +145,31 @@
             this.txtBoxValor.Size = new System.Drawing.Size(147, 22);
             this.txtBoxValor.TabIndex = 11;
             // 
+            // btnCancelar
+            // 
+            this.btnCancelar.Location = new System.Drawing.Point(424, 374);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(143, 45);
+            this.btnCancelar.TabIndex = 12;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
+            // 
+            // btnGuardar
+            // 
+            this.btnGuardar.Location = new System.Drawing.Point(598, 374);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(149, 45);
+            this.btnGuardar.TabIndex = 13;
+            this.btnGuardar.Text = "Guardar";
+            this.btnGuardar.UseVisualStyleBackColor = true;
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 481);
+            this.Controls.Add(this.btnGuardar);
+            this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.txtBoxValor);
             this.Controls.Add(this.txtBoxRespC);
             this.Controls.Add(this.txtBoxRespB);
@@ -181,5 +203,7 @@
         private System.Windows.Forms.TextBox txtBoxRespB;
         private System.Windows.Forms.TextBox txtBoxRespC;
         private System.Windows.Forms.TextBox txtBoxValor;
+        private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.Button btnGuardar;
     }
 }
