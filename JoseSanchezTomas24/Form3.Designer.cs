@@ -35,6 +35,11 @@
             this.lblB = new System.Windows.Forms.Label();
             this.lblC = new System.Windows.Forms.Label();
             this.lblValor = new System.Windows.Forms.Label();
+            this.txtBoxPregunta = new System.Windows.Forms.TextBox();
+            this.txtBoxRespA = new System.Windows.Forms.TextBox();
+            this.txtBoxRespB = new System.Windows.Forms.TextBox();
+            this.txtBoxRespC = new System.Windows.Forms.TextBox();
+            this.txtBoxValor = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblTitulo
@@ -103,11 +108,51 @@
             this.lblValor.TabIndex = 6;
             this.lblValor.Text = "Valor";
             // 
+            // txtBoxPregunta
+            // 
+            this.txtBoxPregunta.Location = new System.Drawing.Point(175, 108);
+            this.txtBoxPregunta.Name = "txtBoxPregunta";
+            this.txtBoxPregunta.Size = new System.Drawing.Size(380, 22);
+            this.txtBoxPregunta.TabIndex = 7;
+            // 
+            // txtBoxRespA
+            // 
+            this.txtBoxRespA.Location = new System.Drawing.Point(102, 242);
+            this.txtBoxRespA.Name = "txtBoxRespA";
+            this.txtBoxRespA.Size = new System.Drawing.Size(292, 22);
+            this.txtBoxRespA.TabIndex = 8;
+            // 
+            // txtBoxRespB
+            // 
+            this.txtBoxRespB.Location = new System.Drawing.Point(102, 295);
+            this.txtBoxRespB.Name = "txtBoxRespB";
+            this.txtBoxRespB.Size = new System.Drawing.Size(292, 22);
+            this.txtBoxRespB.TabIndex = 9;
+            // 
+            // txtBoxRespC
+            // 
+            this.txtBoxRespC.Location = new System.Drawing.Point(102, 341);
+            this.txtBoxRespC.Name = "txtBoxRespC";
+            this.txtBoxRespC.Size = new System.Drawing.Size(292, 22);
+            this.txtBoxRespC.TabIndex = 10;
+            // 
+            // txtBoxValor
+            // 
+            this.txtBoxValor.Location = new System.Drawing.Point(128, 397);
+            this.txtBoxValor.Name = "txtBoxValor";
+            this.txtBoxValor.Size = new System.Drawing.Size(147, 22);
+            this.txtBoxValor.TabIndex = 11;
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 481);
+            this.Controls.Add(this.txtBoxValor);
+            this.Controls.Add(this.txtBoxRespC);
+            this.Controls.Add(this.txtBoxRespB);
+            this.Controls.Add(this.txtBoxRespA);
+            this.Controls.Add(this.txtBoxPregunta);
             this.Controls.Add(this.lblValor);
             this.Controls.Add(this.lblC);
             this.Controls.Add(this.lblB);
@@ -131,5 +176,10 @@
         private System.Windows.Forms.Label lblB;
         private System.Windows.Forms.Label lblC;
         private System.Windows.Forms.Label lblValor;
+        private System.Windows.Forms.TextBox txtBoxPregunta;
+        private System.Windows.Forms.TextBox txtBoxRespA;
+        private System.Windows.Forms.TextBox txtBoxRespB;
+        private System.Windows.Forms.TextBox txtBoxRespC;
+        private System.Windows.Forms.TextBox txtBoxValor;
     }
 }
