@@ -31,6 +31,8 @@
             this.lblSeleccionPregunta = new System.Windows.Forms.Label();
             this.lblPregunta = new System.Windows.Forms.Label();
             this.comboBoxPreguntas = new System.Windows.Forms.ComboBox();
+            this.btnNiIdea = new System.Windows.Forms.Button();
+            this.btnEstoySeguro = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblSeleccionPregunta
@@ -60,11 +62,31 @@
             this.comboBoxPreguntas.Size = new System.Drawing.Size(228, 24);
             this.comboBoxPreguntas.TabIndex = 2;
             // 
+            // btnNiIdea
+            // 
+            this.btnNiIdea.Location = new System.Drawing.Point(151, 290);
+            this.btnNiIdea.Name = "btnNiIdea";
+            this.btnNiIdea.Size = new System.Drawing.Size(144, 40);
+            this.btnNiIdea.TabIndex = 3;
+            this.btnNiIdea.Text = "Ni idea";
+            this.btnNiIdea.UseVisualStyleBackColor = true;
+            // 
+            // btnEstoySeguro
+            // 
+            this.btnEstoySeguro.Location = new System.Drawing.Point(365, 290);
+            this.btnEstoySeguro.Name = "btnEstoySeguro";
+            this.btnEstoySeguro.Size = new System.Drawing.Size(144, 40);
+            this.btnEstoySeguro.TabIndex = 4;
+            this.btnEstoySeguro.Text = "Estoy Seguro";
+            this.btnEstoySeguro.UseVisualStyleBackColor = true;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnEstoySeguro);
+            this.Controls.Add(this.btnNiIdea);
             this.Controls.Add(this.comboBoxPreguntas);
             this.Controls.Add(this.lblPregunta);
             this.Controls.Add(this.lblSeleccionPregunta);
@@ -80,5 +102,7 @@
         private System.Windows.Forms.Label lblSeleccionPregunta;
         private System.Windows.Forms.Label lblPregunta;
         private System.Windows.Forms.ComboBox comboBoxPreguntas;
+        private System.Windows.Forms.Button btnNiIdea;
+        private System.Windows.Forms.Button btnEstoySeguro;
     }
 }
