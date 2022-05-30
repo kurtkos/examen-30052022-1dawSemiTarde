@@ -28,13 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.btnPreguntas = new System.Windows.Forms.Button();
+            this.btnJugar = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // btnPreguntas
+            // 
+            this.btnPreguntas.Location = new System.Drawing.Point(206, 239);
+            this.btnPreguntas.Name = "btnPreguntas";
+            this.btnPreguntas.Size = new System.Drawing.Size(141, 57);
+            this.btnPreguntas.TabIndex = 0;
+            this.btnPreguntas.Text = "Añadir Preguntas y respuestas";
+            this.btnPreguntas.UseVisualStyleBackColor = true;
+            // 
+            // btnJugar
+            // 
+            this.btnJugar.Location = new System.Drawing.Point(206, 320);
+            this.btnJugar.Name = "btnJugar";
+            this.btnJugar.Size = new System.Drawing.Size(141, 38);
+            this.btnJugar.TabIndex = 1;
+            this.btnJugar.Text = "Jugar";
+            this.btnJugar.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnJugar);
+            this.Controls.Add(this.btnPreguntas);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -42,6 +64,9 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnPreguntas;
+        private System.Windows.Forms.Button btnJugar;
     }
 }
 
